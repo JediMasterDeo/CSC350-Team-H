@@ -1,0 +1,62 @@
+CourseNo,SectionNo,DaysOfMeeting,StatTime,EndTime,RoomNumber
+CSC101,080,"Mondays and Wednesdays",8:00am,9:40am,F-906
+CSC101,1200,"Tuesdays and Thursdays",12:00pm,1:40pm,F-906
+CSC101,1800,"Mondays and Wednesdays",6:00pm,7:40pm,F-906
+CSC101,010,"Saturdays and Sundays",10:00am,11:40am,F-906
+CSC110,080,"Mondays and Wednesdays",8:00am,9:40am,F-907
+CSC110,1900,"Tuesdays and Thursdays",7:00pm,8:40pm,F-907
+CSC111,090,"Tuesdays",9:00am,11:40pm,F-908
+CSC111,090,"Thursdays",9:00am,10:40am,F-908
+CSC111,1700,"Fridays",5:00pm,8:40pm,F-908
+CSC111,1700,"Mondays",7:00pm,9:40pm,F-908
+CSC111,1900,"Wednesdays",7:00pm,8:40pm,F-908
+CSC111,1900,"Mondays",7:00pm,9:40pm,F-908
+CSC111,1100,"Tuesdays",11:00am,12:40pm,F-908
+CSC111,1100,"Thursdays",11:00pm,1:40pm,F-908
+CSC210,100,"Mondays",1:00pm,3:40pm,F-908
+CSC210,100,"Wednesdays",1:00pm,2:40pm,F-908
+CSC210,1600,"Saturdays",4:00pm,6:40pm,F-908
+CSC210,1600,"Sundays",4:00pm,5:40pm,F-908
+CSC211,011,"Mondays",11:00am,12:40pm,F-1204
+CSC211,011,"Wednesdays",10:00am,12:40pm,F-1204
+CSC211,1800,"Mondays",6:00pm,8:40pm,F-1204
+CSC211,1800,"Wednesdays",7:00pm,8:40pm,F-1204
+CSC211,1200,"Tuesdays",12:00pm,2:40pm,F-1204
+CSC211,1200,"Thursdays",12:00pm,1:40pm,F-1204
+CSC211,090,"Saturdays",9:00am,11:40am,F-1204
+CSC211,090,"Sundays",9:00am,10:40pm,F-1204
+CSC215,090,"Tuesdays and Thursdays",9:00am,10:40am,F-904
+CSC215,011,"Mondays and Wednesdays",11:00am,12:40pm,F-904
+CSC215,1800,"Tuesdays and Thursdays",6:00pm,7:40pm,F-904
+CSC230,1700,"Tuesdays and Thursdays",5:00pm,7:40pm,F-1204
+CSC230,080,"Mondays and Wednesdays",8:00am,10:40am,F-1204
+CSC231,010,"Fridays",10:00am,1:40pm,F-905
+CSC231,090,"Saturdays and Sundays",9:00am,10:40pm,F-905
+CSC231,1600,"Tuesdays and Thursdays",4:00pm,5:40pm,F-905
+CSC310,010,"Fridays",10:00am,1:40pm,F-1209
+CSC310,1500,"Wednesdays and Fridays",3:00pm,4:40pm,F-1209
+CSC330,080,"Tuesdays and Thursdays",8:00am,10:40am,F-1209
+CSC330,1700,"Fridays",5:00pm,8:40pm,F-1209
+CSC331,080,"Mondays",8:00am,10:40am,F-904
+CSC331,080,"Wednesdays",8:00am,9:40am,F-904
+CSC331,1200,"Tuesdays",12:00pm,2:40pm,F-904
+CSC331,1200,"Thursdays",12:00pm,1:40pm,F-904
+CSC331,1900,"Mondays",7:00pm,9:40pm,F-904
+CSC331,1900,"Wednesdays",7:00pm,8:40pm,F-904
+CSC331,090,"Saturdays",9:00am,11:40am,F-904
+CSC331,090,"Sundays",9:00am,10:40am,F-904
+CSC350,010,"Mondays",10:00am,12:40pm,F-905
+CSC350,010,"Wednesdays",10:00am,11:40am,F-905
+CSC350,090,"Tuesdays",9:00am,10:40am,F-905
+CSC350,090,"Thursdays",9:00am,11:40am,F-905
+CSC350,1900,"Tuesdays",7:00pm,9:40pm,F-905
+CSC350,1900,"Thursdays",7:00pm,8:40pm,F-905
+CSC410,1700,"Mondays and Wednesdays",5:00pm,6:40pm,F-1201
+CSC410,010,"Fridays",10:00am,1:40pm,F-1201
+CSC430,011,"Mondays and Wednesdays",11:00am,12:40pm,F-1201
+CSC430,1500,"Tuesdays and Thursdays",3:00pm,4:40pm,F-1201
+CSC450,010,"Fridays",10:00am,1:40pm,F-907
+CSC450,1200,"Saturdays and Sundays",12:00pm,1:40pm,F-907
+CSC470,1300,"Mondays",1:00pm,3:40pm,F-906
+CSC470,1300,"Wednesdays",1:00pm,2:40pm,F-906
+CSC470,1700,"Fridays",5:00pm,8:40pm,F-906
