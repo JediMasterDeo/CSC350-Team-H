@@ -1,0 +1,44 @@
+create database `classproject`;
+use `classproject`;
+
+drop table if exists `ciscourses`;
+create table `ciscourses`(
+`classes` char(6) not null,
+`days` int(1) not null,
+primary key (`classes`)
+)ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+drop table if exists `courseinfo`;
+create table `courseinfo`(
+`coursename` char(6) not null,
+`days` int(1) not null,
+`hours` int(2) not null,
+primary key (`coursename`)
+)ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+insert into `courseinfo`(`coursename`,`hours`) values
+('CSC101',4),('CSC110',5),('CSC111',5),('CSC210',5),('CSC211',5),('CSC215',4),
+('CSC230',6),('CSC231',4),('CSC310',4),('CSC331',5),('CSC350',5),('CSC410',4),
+('CSC430',4),('CSC450',4),('CSC470',5),('CIS100',4),('CIS115',4),('CIS120',2),
+('CIS140',3),('CIS155',5),('CIS160',3),('CIS165',4),('CIS180',4),('CIS200',4),
+('CIS207',6),('CIS220',4),('CIS235',5),('CIS255',5),('CIS280',4),('CIS316',4),
+('CIS317',4),('CIS325',4),('CIS335',5),('CIS345',5),('CIS359',4),('CIS362',4),
+('CIS364',5),('CIS365',4),('CIS370',4),('CIS385',4),('CIS390',5),('CIS395',5),
+('CIS420',4),('CIS440',5),('CIS445',5),('CIS455',5),('CIS459',5),('CIS465',10),
+('CIS475',5),('CIS480',3),('CIS485',4),('CIS490',4),('CIS495',4);
+
+drop table if exists `rooms`;
+create table `rooms`(
+`rmnumber` varchar(10) not null,
+primary key (`rmnumber`)
+)ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+drop table if exists `schedule`;
+create table `schedule`(
+`classes` char(6) not null,
+`days` int(1) not null,
+`hours` int(2) not null,
+`rmnumber` varchar(10) not null,
+ constraint `schedule_ibfk_1` foreign key (`rmnumber`) REFERENCES `rooms` (`rmnumber`)
+)ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
